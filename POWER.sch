@@ -1,0 +1,223 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title "RTB P15 Module"
+Date "2024-08-13"
+Rev "2"
+Comp "Frank Schumacher"
+Comment1 "Base board"
+Comment2 ""
+Comment3 ""
+Comment4 "Licensed under the Apache License, Version 2"
+$EndDescr
+Text Notes 650  750  0    118  ~ 0
+Power
+$Comp
+L power:GND #PWR?
+U 1 1 5F4F5167
+P 4350 2450
+AR Path="/5B6C6B9D/5F4F5167" Ref="#PWR?"  Part="1" 
+AR Path="/5CA7768A/5F4F5167" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 4350 2200 50  0001 C CNN
+F 1 "GND" H 4355 2277 50  0000 C CNN
+F 2 "" H 4350 2450 50  0001 C CNN
+F 3 "" H 4350 2450 50  0001 C CNN
+	1    4350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF0F571
+P 5800 1950
+AR Path="/5B6C6B9D/5FF0F571" Ref="R?"  Part="1" 
+AR Path="/5CA7768A/5FF0F571" Ref="R90"  Part="1" 
+F 0 "R90" H 5870 1996 50  0001 L CNN
+F 1 "10K" H 5850 1950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 1950 50  0001 C CNN
+F 3 "~" H 5800 1950 50  0001 C CNN
+	1    5800 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 2400 5800 2450
+Wire Wire Line
+	5800 1800 5800 1750
+$Comp
+L Device:LED D?
+U 1 1 5FF0F567
+P 5800 2250
+AR Path="/5B6C6B9D/5FF0F567" Ref="D?"  Part="1" 
+AR Path="/5CA7768A/5FF0F567" Ref="D25"  Part="1" 
+F 0 "D25" H 5793 1995 50  0001 C CNN
+F 1 "LED(ylw)" V 5800 1800 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5800 2250 50  0001 C CNN
+F 3 "~" H 5800 2250 50  0001 C CNN
+	1    5800 2250
+	0    1    -1   0   
+$EndComp
+Text GLabel 6100 1750 2    50   Output ~ 0
+Vrail
+Wire Wire Line
+	3350 1800 3350 1750
+Wire Wire Line
+	3350 2400 3350 2450
+Wire Wire Line
+	3350 1750 3750 1750
+Connection ~ 3350 1750
+Connection ~ 3750 2450
+Wire Wire Line
+	3350 2450 3750 2450
+$Comp
+L Device:R R?
+U 1 1 5FEC1CAB
+P 3350 1950
+AR Path="/5B6C6B9D/5FEC1CAB" Ref="R?"  Part="1" 
+AR Path="/5CA7768A/5FEC1CAB" Ref="R89"  Part="1" 
+F 0 "R89" H 3420 1996 50  0001 L CNN
+F 1 "10K" H 3400 1950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 1950 50  0001 C CNN
+F 3 "~" H 3350 1950 50  0001 C CNN
+	1    3350 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3750 2000 3750 1750
+$Comp
+L Device:LED D?
+U 1 1 5FE24BDD
+P 3350 2250
+AR Path="/5B6C6B9D/5FE24BDD" Ref="D?"  Part="1" 
+AR Path="/5CA7768A/5FE24BDD" Ref="D14"  Part="1" 
+F 0 "D14" H 3343 1995 50  0001 C CNN
+F 1 "LED(ylw)" V 3350 1800 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3350 2250 50  0001 C CNN
+F 3 "~" H 3350 2250 50  0001 C CNN
+	1    3350 2250
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3750 2450 3750 2200
+$Comp
+L Device:C_Small C?
+U 1 1 5F721135
+P 3750 2100
+AR Path="/5B6C6B9D/5F721135" Ref="C?"  Part="1" 
+AR Path="/5CA7768A/5F721135" Ref="C27"  Part="1" 
+F 0 "C27" H 3842 2146 50  0001 L CNN
+F 1 "2.2u/35V" H 3800 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3750 2100 50  0001 C CNN
+F 3 "~" H 3750 2100 50  0001 C CNN
+	1    3750 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 1750
+Wire Wire Line
+	3750 1750 4050 1750
+Wire Wire Line
+	4350 2450 3750 2450
+Connection ~ 4350 2450
+Wire Wire Line
+	4350 2050 4350 2450
+$Comp
+L Regulator_Linear:L7812 U?
+U 1 1 5F4F5196
+P 4350 1750
+AR Path="/5B6C6B9D/5F4F5196" Ref="U?"  Part="1" 
+AR Path="/5CA7768A/5F4F5196" Ref="U5"  Part="1" 
+F 0 "U5" H 4350 1992 50  0000 C CNN
+F 1 "L78M12" H 4350 1901 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 4375 1600 50  0001 L CIN
+F 3 "" H 4350 1700 50  0001 C CNN
+	1    4350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 629551E5
+P 5000 2100
+AR Path="/5B6C6B9D/629551E5" Ref="C?"  Part="1" 
+AR Path="/5CA7768A/629551E5" Ref="C26"  Part="1" 
+F 0 "C26" H 5092 2146 50  0001 L CNN
+F 1 "22u/16V" H 4600 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5000 2100 50  0001 C CNN
+F 3 "~" H 5000 2100 50  0001 C CNN
+	1    5000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2200 5000 2450
+Connection ~ 5000 2450
+Wire Wire Line
+	5000 2450 5800 2450
+Wire Wire Line
+	5000 2000 5000 1750
+Connection ~ 5000 1750
+Wire Wire Line
+	5000 1750 5800 1750
+Wire Wire Line
+	4350 2450 5000 2450
+Text GLabel 1400 1500 0    50   Input ~ 0
+Vbst.0
+Wire Wire Line
+	5800 1750 6100 1750
+Connection ~ 5800 1750
+Wire Wire Line
+	4650 1750 5000 1750
+Text GLabel 1400 1750 0    50   Input ~ 0
+Vsrc
+Wire Wire Line
+	1400 1750 1600 1750
+$Comp
+L Device:D D?
+U 1 1 5F4F5190
+P 1750 1750
+AR Path="/5B6C6B9D/5F4F5190" Ref="D?"  Part="1" 
+AR Path="/5CA7768A/5F4F5190" Ref="D1"  Part="1" 
+F 0 "D1" H 1750 1900 50  0001 C CNN
+F 1 "SS34F" H 1750 1900 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 1750 1750 50  0001 C CNN
+F 3 "" H 1750 1750 50  0001 C CNN
+	1    1750 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 1750 2250 1750
+Wire Wire Line
+	2250 1750 3350 1750
+Connection ~ 2250 1750
+Wire Wire Line
+	2250 1950 2250 1750
+Connection ~ 3350 2450
+Wire Wire Line
+	3350 2450 2250 2450
+Wire Wire Line
+	2250 2250 2250 2450
+$Comp
+L Device:CP C15
+U 1 1 62903859
+P 2250 2100
+F 0 "C15" H 2100 2250 50  0001 L CNN
+F 1 "47u/35V" H 2300 2250 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X" H 2288 1950 50  0001 C CNN
+F 3 "~" H 2250 2100 50  0001 C CNN
+	1    2250 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1500 2250 1500
+Wire Wire Line
+	2250 1500 2250 1750
+Wire Notes Line
+	1000 1000 6850 1000
+Wire Notes Line
+	6850 1000 6850 3000
+Wire Notes Line
+	6850 3000 1000 3000
+Wire Notes Line
+	1000 3000 1000 1000
+Text Notes 1050 1150 0    50   ~ 0
+Internal Vrail voltage limited to 12V
+$EndSCHEMATC

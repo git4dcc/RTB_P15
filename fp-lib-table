@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name _Local)(type KiCad)(uri ${KIPRJMOD}/../Local.pretty)(options "")(descr ""))
+  (lib (name _Samac)(type KiCad)(uri C:/RnD/NMRA/_KiCad/SamacSys/SamacSys_Parts.pretty)(options "")(descr ""))
+)
