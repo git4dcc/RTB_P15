@@ -3,9 +3,36 @@
 [![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https://github.com/git4dcc/RTB_SamacSys)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-The P15 minimal power board provides unmonitored power and is a stripped down version of the C11 power board. The main purpose of this card is to operate as a decoder tester/programmer via a USB connection to the PC. No external power supply is required as it is powered via the USB interface.
+My homebrew P15 power board provides unmonitored power and is a stripped down version of the C11 power board. The main purpose of this card is to operate as a decoder tester/programmer via a USB connection to the PC. No external power supply is required as it can be powered via the USB and the optional isolated DC/DC converter.
 
-[more](https://rtb4dcc.de/hardware/modules/p15/)
+<details>
+<summary>See also</summary>
 
-# PCB
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/07/P15_1.png" width=800>
+- [RTB_C10 - Master](https://github.com/git4dcc/RTB_C10)
+- [RTB_C12 - Power](https://github.com/git4dcc/RTB_C12)
+
+</details>
+
+<details>
+<summary>User Guides</summary>
+
+- User Guide - DE
+- [User Guide - EN](https://rtb4dcc.de/rtb_user_guide_en/)
+
+</details>
+
+<img src="supplemental/images/P15_main.JPG" width=900>
+
+## Power Board features
+- **passive**
+  - no CPU on this board
+- **DC/DC**
+  - isolated DC/DC step up converter (5V->12V, 250mA)
+  - (optional) external power connect (12V-16V, >1A)
+- **Slots**
+  - 1x Master slot
+  - 1x Booster slot
+- **Connectors**
+  - terminal connector or (2.1mm / 2.5mm) barrel jack for external power
+  - DCC connector
+
