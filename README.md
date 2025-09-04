@@ -36,3 +36,13 @@ My homebrew P15 power board provides unmonitored power and is a stripped down ve
   - terminal connector or (2.1mm / 2.5mm) barrel jack for external power
   - DCC connector
 
+# Hardware
+The PCB layout uses SMD footprints down to 0603 parts. Handsoldering is possible.
+Further, the PCB has been optimized for automated assembly (BOM and Position files as CSV).
+
+<img src="supplemental/images/P15_top.JPG" width=600>
+<img src="supplemental/images/P15_btm.JPG" width=604>
+
+## PCB
+- 2-layer PCB, FR4, 1.6mm
+- CPU: none
