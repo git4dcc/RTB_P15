@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "RTB P15 Module"
-Date "2024-08-13"
+Date "2025-09-04"
 Rev "2"
 Comp "Frank Schumacher"
 Comment1 "Base board"
@@ -17,18 +17,18 @@ $Sheet
 S 3150 3250 1700 750 
 U 5B6E0562
 F0 "SLOT" 79
-F1 "SLOT.sch" 79
+F1 "P15slt.sch" 79
 $EndSheet
 $Sheet
 S 5500 3250 2000 750 
 U 5BBD98C6
 F0 "BUS" 79
-F1 "BUS.sch" 79
+F1 "P15bus.sch" 79
 $EndSheet
 $Sheet
 S 7900 3250 2000 750 
 U 5CA7768A
 F0 "Power" 79
-F1 "POWER.sch" 79
+F1 "P15pwr.sch" 79
 $EndSheet
 $EndSCHEMATC

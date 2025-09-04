@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "RTB P15 Module"
-Date "2024-08-13"
+Date "2025-09-04"
 Rev "2"
 Comp "Frank Schumacher"
 Comment1 "Base board"
@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 "Licensed under the Apache License, Version 2"
 $EndDescr
-Text Notes 800  750  0    118  ~ 0
+Text Notes 800  750  0    118  ~ 24
 Slots
 $Comp
 L Mechanical:MountingHole H1
@@ -344,11 +344,7 @@ F 1 "TDN_5-0912WI" H 5950 2500 50  0000 C CNN
 F 2 "_Samac:TDN52412WI" H 6850 2450 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/TDN 5-0912WI.pdf" H 6850 2350 50  0001 L CNN
 F 4 "5 Watt DC/DC converter, industrial, 4:1 input, highest power density, regulated, encapsulated, DIP package" H 6850 2250 50  0001 L CNN "Description"
-F 5 "10" H 6850 2150 50  0001 L CNN "Height"
-F 6 "495-TDN5-0912WI" H 6850 2050 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=495-TDN5-0912WI" H 6850 1950 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Traco Power" H 6850 1850 50  0001 L CNN "Manufacturer_Name"
-F 9 "TDN 5-0912WI" H 6850 1750 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "495-TDN5-0912WI" H 6850 2050 50  0001 L CNN "Mouser"
 	1    5500 2350
 	1    0    0    -1  
 $EndComp
@@ -359,10 +355,12 @@ P 9400 2100
 AR Path="/5B6C6B9D/6620C7BC" Ref="D?"  Part="1" 
 AR Path="/5CA7768A/6620C7BC" Ref="D?"  Part="1" 
 AR Path="/5B6E0562/6620C7BC" Ref="D2"  Part="1" 
-F 0 "D2" H 9400 1884 50  0001 C CNN
+F 0 "D2" H 9300 2050 50  0000 C CNN
 F 1 "SS34F" H 9600 2050 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123F" H 9400 2100 50  0001 C CNN
-F 3 "PMEG40T50EPX" H 9400 2100 50  0001 C CNN
+F 3 "~" H 9400 2100 50  0001 C CNN
+F 4 "3A 40V 500uA@40V 550mV@3A 80A Independent SMAF Schottky Diodes" H 9400 2100 50  0001 C CNN "Description"
+F 5 "C60396" H 9400 2100 50  0001 C CNN "JLCPCB"
 	1    9400 2100
 	-1   0    0    1   
 $EndComp
@@ -392,10 +390,12 @@ $Comp
 L Device:CP_Small C3
 U 1 1 6632A2C9
 P 8000 2550
-F 0 "C3" H 7912 2504 50  0001 R CNN
-F 1 "3x 680u/20V" H 8450 2200 50  0000 R CNN
+F 0 "C3" H 8000 2450 50  0000 R CNN
+F 1 "680u/20V" H 8450 2200 50  0001 R CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 8000 2550 50  0001 C CNN
 F 3 "~" H 8000 2550 50  0001 C CNN
+F 4 "Electrolytic Capacitors - Radial Leaded 25VDC 680uF 8x20mm LS3.5mm, iRipple > 1A" H 8000 2550 50  0001 C CNN "Description"
+F 5 "667-EEU-FR1E681L" H 8000 2550 50  0001 C CNN "Mouser"
 	1    8000 2550
 	1    0    0    -1  
 $EndComp
@@ -403,10 +403,12 @@ $Comp
 L Device:R R1
 U 1 1 6633FFC1
 P 7600 2350
-F 0 "R1" V 7393 2350 50  0001 C CNN
-F 1 "68" V 7600 2350 50  0000 C CNN
+F 0 "R1" V 7700 2350 50  0000 C CNN
+F 1 "100" V 7600 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7530 2350 50  0001 C CNN
 F 3 "~" H 7600 2350 50  0001 C CNN
+F 4 "100Ω 200V 250mW Thick Film Resistor ±1%" V 7600 2350 50  0001 C CNN "Description"
+F 5 "C17901" V 7600 2350 50  0001 C CNN "JLCPCB"
 	1    7600 2350
 	0    1    1    0   
 $EndComp
@@ -417,10 +419,12 @@ P 9400 2250
 AR Path="/5B6C6B9D/663408A3" Ref="D?"  Part="1" 
 AR Path="/5CA7768A/663408A3" Ref="D?"  Part="1" 
 AR Path="/5B6E0562/663408A3" Ref="D3"  Part="1" 
-F 0 "D3" H 9400 2034 50  0001 C CNN
+F 0 "D3" H 9300 2200 50  0000 C CNN
 F 1 "SS34F" H 9600 2200 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123F" H 9400 2250 50  0001 C CNN
-F 3 "PMEG40T50EPX" H 9400 2250 50  0001 C CNN
+F 3 "~" H 9400 2250 50  0001 C CNN
+F 4 "3A 40V 500uA@40V 550mV@3A 80A Independent SMAF Schottky Diodes" H 9400 2250 50  0001 C CNN "Description"
+F 5 "C60396" H 9400 2250 50  0001 C CNN "JLCPCB"
 	1    9400 2250
 	-1   0    0    1   
 $EndComp
@@ -433,21 +437,6 @@ Wire Wire Line
 	9600 2100 9700 2100
 Wire Wire Line
 	7300 2100 7300 2350
-$Comp
-L Connector:Barrel_Jack J2
-U 1 1 6634BDBD
-P 8500 5450
-F 0 "J2" H 8270 5500 50  0000 R CNN
-F 1 "Barrel_Jack" H 8270 5409 50  0000 R CNN
-F 2 "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal" H 8550 5410 50  0001 C CNN
-F 3 "~" H 8550 5410 50  0001 C CNN
-	1    8500 5450
-	-1   0    0    -1  
-$EndComp
-Text GLabel 8200 5550 0    50   Input ~ 0
-GND
-Text GLabel 8200 5350 0    50   Input ~ 0
-Vsrc
 Connection ~ 3500 2750
 NoConn ~ 5500 2350
 Wire Wire Line
@@ -466,10 +455,12 @@ $Comp
 L Device:CP_Small C4
 U 1 1 6646EC18
 P 8200 2550
-F 0 "C4" H 8112 2504 50  0001 R CNN
+F 0 "C4" H 8200 2450 50  0000 R CNN
 F 1 "680u/20V" H 8400 2800 50  0001 R CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 8200 2550 50  0001 C CNN
 F 3 "~" H 8200 2550 50  0001 C CNN
+F 4 "Electrolytic Capacitors - Radial Leaded 25VDC 680uF 8x20mm LS3.5mm, iRipple > 1A" H 8200 2550 50  0001 C CNN "Description"
+F 5 "667-EEU-FR1E681L" H 8200 2550 50  0001 C CNN "Mouser"
 	1    8200 2550
 	1    0    0    -1  
 $EndComp
@@ -480,10 +471,12 @@ $Comp
 L Device:CP_Small C2
 U 1 1 6652DF8A
 P 8400 2550
-F 0 "C2" H 8312 2504 50  0001 R CNN
+F 0 "C2" H 8400 2450 50  0000 R CNN
 F 1 "680u/20V" H 8600 2300 50  0001 R CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 8400 2550 50  0001 C CNN
 F 3 "~" H 8400 2550 50  0001 C CNN
+F 4 "Electrolytic Capacitors - Radial Leaded 25VDC 680uF 8x20mm LS3.5mm, iRipple > 1A" H 8400 2550 50  0001 C CNN "Description"
+F 5 "667-EEU-FR1E681L" H 8400 2550 50  0001 C CNN "Mouser"
 	1    8400 2550
 	1    0    0    -1  
 $EndComp
@@ -553,10 +546,12 @@ $Comp
 L Device:R R2
 U 1 1 6644B74B
 P 7600 2250
-F 0 "R2" V 7393 2250 50  0001 C CNN
-F 1 "68" V 7600 2250 50  0000 C CNN
+F 0 "R2" V 7500 2250 50  0000 C CNN
+F 1 "100" V 7600 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 7530 2250 50  0001 C CNN
 F 3 "~" H 7600 2250 50  0001 C CNN
+F 4 "100Ω 200V 250mW Thick Film Resistor ±1%" V 7600 2250 50  0001 C CNN "Description"
+F 5 "C17901" V 7600 2250 50  0001 C CNN "JLCPCB"
 	1    7600 2250
 	0    1    1    0   
 $EndComp
@@ -620,10 +615,12 @@ $Comp
 L Transistor_BJT:BC847 Q1
 U 1 1 66BB1D93
 P 8800 2600
-F 0 "Q1" H 8750 2750 50  0001 L CNN
+F 0 "Q1" H 8750 2750 50  0000 L CNN
 F 1 "BC847" H 8600 2450 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 9000 2525 50  0001 L CIN
 F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 8800 2600 50  0001 L CNN
+F 4 "100mA 200mW 45V 500mV NPN SOT-23 (BJT)" H 8800 2600 50  0001 C CNN "Description"
+F 5 "C7420337" H 8800 2600 50  0001 C CNN "JLCPCB"
 	1    8800 2600
 	1    0    0    -1  
 $EndComp
@@ -644,10 +641,12 @@ $Comp
 L Device:R R3
 U 1 1 66BF3932
 P 8600 2400
-F 0 "R3" V 8393 2400 50  0001 C CNN
+F 0 "R3" H 8500 2350 50  0000 C CNN
 F 1 "6.8k" V 8600 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 2400 50  0001 C CNN
 F 3 "~" H 8600 2400 50  0001 C CNN
+F 4 "100mW 6.8kΩ 75V Thick Film Resistor ±1%" V 8600 2400 50  0001 C CNN "Description"
+F 5 "C23212" V 8600 2400 50  0001 C CNN "JLCPCB"
 	1    8600 2400
 	-1   0    0    1   
 $EndComp
@@ -666,6 +665,8 @@ F 0 "R4" V 9193 2400 50  0001 C CNN
 F 1 "2.7k" V 9400 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 2400 50  0001 C CNN
 F 3 "~" H 9400 2400 50  0001 C CNN
+F 4 "100mW 2.7kΩ 75V Thick Film Resistor ±1%" V 9400 2400 50  0001 C CNN "Description"
+F 5 "C13167" V 9400 2400 50  0001 C CNN "JLCPCB"
 	1    9400 2400
 	0    1    1    0   
 $EndComp
@@ -708,4 +709,34 @@ Wire Wire Line
 Connection ~ 9100 2800
 Wire Wire Line
 	9100 2800 9700 2800
+Text GLabel 8250 5350 0    50   Input ~ 0
+GND
+Text GLabel 8250 5550 0    50   Input ~ 0
+Vsrc
+$Comp
+L Connector:Barrel_Jack_Switch J5
+U 1 1 681F5678
+P 8650 5450
+F 0 "J5" H 8420 5400 50  0000 R CNN
+F 1 "Barrel_Jack_Switch" H 8420 5491 50  0000 R CNN
+F 2 "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal" H 8700 5410 50  0001 C CNN
+F 3 "~" H 8700 5410 50  0001 C CNN
+F 4 "DC Power Connectors SMT 2.1MM" H 8650 5450 50  0001 C CNN "Description"
+F 5 "163-0179-EX" H 8650 5450 50  0001 C CNN "Mouser"
+	1    8650 5450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 5550 8350 5550
+Wire Wire Line
+	8250 5350 8300 5350
+Wire Wire Line
+	8300 5350 8300 5450
+Wire Wire Line
+	8300 5450 8350 5450
+Connection ~ 8300 5350
+Wire Wire Line
+	8300 5350 8350 5350
+Text Notes 8050 5800 0    50   ~ 0
+Choice: Barrel Jack may be 2.1mm or 2.5mm
 $EndSCHEMATC

@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "RTB P15 Module"
-Date "2024-08-13"
+Date "2025-09-04"
 Rev "2"
 Comp "Frank Schumacher"
 Comment1 "Base board"
@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 "Licensed under the Apache License, Version 2"
 $EndDescr
-Text Notes 700  800  0    118  ~ 0
+Text Notes 700  800  0    118  ~ 24
 BUS
 Wire Wire Line
 	2800 1750 3150 1750
