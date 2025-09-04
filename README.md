@@ -32,6 +32,7 @@ My homebrew P15 power board provides unmonitored power and is a stripped down ve
 - **Slots**
   - 1x Master slot
   - 1x Booster slot
+  - 1x FDX extender (for development only)
 - **Connectors**
   - terminal connector or (2.1mm / 2.5mm) barrel jack for external power
   - DCC connector
@@ -41,8 +42,14 @@ The PCB layout uses SMD footprints down to 0603 parts. Handsoldering is possible
 Further, the PCB has been optimized for automated assembly (BOM and Position files as CSV).
 
 <img src="supplemental/images/P15_top.JPG" width=600>
-<img src="supplemental/images/P15_btm.JPG" width=604>
+<img src="supplemental/images/P15_btm.JPG" width=600>
 
 ## PCB
 - 2-layer PCB, FR4, 1.6mm
 - CPU: none
+
+# YouTube
+See the P15 power board used in the Decoder Tester use case.<br><br>
+[<img src="https://img.youtube.com/vi/n1b2I9GNrNY/0.jpg" width=260>](https://youtu.be/n1b2I9GNrNY)
+
+This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
