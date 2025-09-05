@@ -49,7 +49,7 @@ Further, the PCB has been optimized for automated assembly (BOM and Position fil
 - CPU: none
 
 # YouTube
-See the P15 power board used in the Decoder Tester use case.<br><br>
+See the (P15, C10, C12) used in the Decoder Tester use case.<br><br>
 [<img src="https://img.youtube.com/vi/n1b2I9GNrNY/0.jpg" width=260>](https://youtu.be/n1b2I9GNrNY)
 
 This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
