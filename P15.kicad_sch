@@ -1,0 +1,148 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0dca0d35-4af6-4efb-a95b-13bd5fd2fc5a")
+	(paper "A4")
+	(title_block
+		(title "RTB P15 Module")
+		(date "2025-09-04")
+		(rev "2")
+		(company "Frank Schumacher")
+		(comment 1 "Base board")
+		(comment 4 "Licensed under the Apache License, Version 2")
+	)
+	(lib_symbols)
+	(sheet
+		(at 80.01 82.55)
+		(size 43.18 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005b6e0562")
+		(property "Sheetname" "SLOT"
+			(at 80.01 81.4701 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "P15slt.kicad_sch"
+			(at 80.01 102.4792 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P15"
+				(path "/0dca0d35-4af6-4efb-a95b-13bd5fd2fc5a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 82.55)
+		(size 50.8 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005bbd98c6")
+		(property "Sheetname" "BUS"
+			(at 139.7 81.4701 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "P15bus.kicad_sch"
+			(at 139.7 102.4792 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P15"
+				(path "/0dca0d35-4af6-4efb-a95b-13bd5fd2fc5a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 82.55)
+		(size 50.8 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005ca7768a")
+		(property "Sheetname" "Power"
+			(at 200.66 81.4701 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "P15pwr.kicad_sch"
+			(at 200.66 102.4792 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P15"
+				(path "/0dca0d35-4af6-4efb-a95b-13bd5fd2fc5a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
