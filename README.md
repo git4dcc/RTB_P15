@@ -23,7 +23,7 @@ My homebrew P15 power board provides unmonitored power and is a stripped down ve
 
 </details>
 
-<img src="supplemental/images/P15_main.JPG" width=900>
+<img src="supplemental/images/P15_main.JPG" width=700>
 
 ## Power Board features
 - **passive**
@@ -43,8 +43,8 @@ My homebrew P15 power board provides unmonitored power and is a stripped down ve
 The PCB layout uses SMD footprints down to 0603 parts. Handsoldering is possible.
 Further, the PCB has been optimized for automated assembly (BOM and Position files as CSV).
 
-<img src="supplemental/images/P15_top.JPG" width=600>
-<img src="supplemental/images/P15_btm.JPG" width=600>
+<img src="supplemental/images/P15_top.JPG" width=500>
+<img src="supplemental/images/P15_btm.JPG" width=500>
 
 ## PCB
 - 2-layer PCB, FR4, 1.6mm
