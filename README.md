@@ -9,9 +9,9 @@ My homebrew P15 power board provides unmonitored power and is a stripped down ve
 <details>
 <summary>See also</summary>
 
-- [RTB_C10 - Master](https://github.com/git4dcc/RTB_C10)
-- [RTB_C11 - Power](https://github.com/git4dcc/RTB_C11)
-- [RTB_C12 - Booster](https://github.com/git4dcc/RTB_C12)
+- [RTB_C10 - Master](/../../../../git4dcc/RTB_C10)
+- [RTB_C11 - Power](/../../../../git4dcc/RTB_C11)
+- [RTB_C12 - Booster](/../../../../git4dcc/RTB_C12)
 
 </details>
 
